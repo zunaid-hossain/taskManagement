@@ -1,0 +1,11 @@
+{% extends "home.html" %}
+
+
+{% block container %}
+{% load crispy_forms_tags %}
+
+<form method='post' class=''>
+{% csrf_token %} 
+{form|crispy}   
+</form>
+{% endblock %}

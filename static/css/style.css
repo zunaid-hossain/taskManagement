@@ -1,0 +1,168 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navcolor
+{
+    background-color: aquamarine;
+}
+
+li 
+{
+    color: #082355;
+    font-weight: 600;
+    
+}
+.search
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#a3e0e1;
+    border: none;
+    
+    width: 42vw;
+    border-radius: 4px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.textSearch
+{
+    
+    font-size: 14px;
+    border: none;
+    outline: black;
+    
+    width: 40vw;
+    color: #111;
+    height: 40px;
+    padding-left:20px ;
+
+}
+
+.searchicon
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+.text
+{
+    text-align: center;
+    padding-left:300px;
+}
+.image
+{
+    width: 500px;
+    
+
+}
+.para
+{
+    font-size:large;
+    font-weight: 500;
+}
+.contain
+{
+    justify-content: center;
+    display: flex;
+    height: 94vh;
+    align-items: center;
+    background-color: #ffff;
+    gap: 200px;
+    
+}
+.div1
+{
+    text-align: center;
+   
+   
+}
+.text1
+{
+    text-decoration: underline;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.contain1
+  {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+  }
+.img
+{
+    height:300px;
+}
+.button-1{
+    align-items: center;
+    background-color: #0a78c2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: small;
+    font-weight: 500;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+.button-2 {
+    align-items: center;
+    background-color: #c20a19;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: small;
+    font-weight: 500;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+.button-3 {
+    align-items: center;
+    background-color: #0ac2a3;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: small;
+    font-weight: 500;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+.button-4 {
+    align-items: center;
+    background-color: #0abb9d;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: small;
+    font-weight: 500;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}

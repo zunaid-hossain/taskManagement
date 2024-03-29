@@ -1,0 +1,40 @@
+{% extends "home.html" %}
+{% block container %}
+
+    
+    
+    <div class="d-flex flex-wrap p-5 ">
+
+    {% for i in data %}
+
+        <div class="col-sm-3 p-2">
+            <div class="card"> 
+                <div class="card-body">
+                    <h1 class="card-title">{{i.taskTitle}}</h1>
+                    <small class="card-text">{{i.Task_Assign_Date}}</small>
+              
+              <br>
+              <p>
+                {{i.taskDescription}}
+                <br>
+                CATEGORY:
+                {% for j in i.category.all %}
+                {{j.Name}}               
+                {% endfor %}
+              </p>
+              {% if not i.is_completed %}
+              <button class="button-1" role="button"><a class="nav-link" href="{% url 'edit' i.id %}">Edit </a></button>
+              <button class="button-2" role="button"><a class="nav-link" href="{% url 'delete' i.id %}">Delete </a></button>
+              <button class="button-4" type="submit"><a class="nav-link" href="{% url 'done' i.id %}">Done </a></button>
+              {% else %}
+              <button class="button-3" role="button">Completed</button>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+    
+        {% endfor %}
+    </div>
+
+
+{% endblock %}
